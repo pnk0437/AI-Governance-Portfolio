@@ -1,7 +1,154 @@
 Platform Overview
 
-* What is it?
-* What does it do?
-* Who would use it?
-* What business problem does it solve?
-* What integrations exist?
+
+Glean Platform Overview
+What is Glean?
+
+Glean is an enterprise AI platform that combines enterprise search, generative AI, knowledge management, and AI-powered assistants into a single solution. It enables organizations to securely access, discover, and interact with information across their enterprise systems using natural language queries and AI-driven insights.
+
+Unlike traditional search tools, Glean leverages Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to provide contextual answers, summarize information, automate knowledge discovery, and support business workflows while respecting existing user permissions and access controls.
+
+What Does Glean Do?
+Glean serves as a centralized AI-powered knowledge hub that helps employees find information, generate content, and complete tasks more efficiently.
+
+Key capabilities include:
+
+Enterprise Search
+Searches across multiple enterprise applications and data repositories from a single interface.
+Retrieves documents, conversations, tickets, policies, and other organizational knowledge.
+AI Assistant
+Allows users to ask questions in natural language.
+Generates contextual responses based on enterprise data and approved AI models.
+Provides summaries, recommendations, and insights.
+Knowledge Discovery
+Identifies relevant documents, projects, teams, and subject matter experts.
+Helps employees locate organizational knowledge quickly.
+Content Generation
+Creates drafts of emails, reports, meeting summaries, presentations, and other business content.
+Summarizes lengthy documents and conversations.
+AI Agents and Automation
+Supports AI-powered agents that can perform research, gather information, and assist with business processes.
+Automates repetitive knowledge-based tasks and workflows.
+Personalized Experience
+Delivers results tailored to a user's role, permissions, and organizational context.
+Who Would Use Glean?
+
+Who would use it? Glean is designed for enterprise-wide use across both business and technical functions.
+Business Users
+Human Resources
+Finance
+Procurement
+Operations
+Marketing
+Sales
+Technical Teams
+Information Technology (IT)
+Cybersecurity
+Engineering
+Application Support
+Product Development
+Leadership and Executives
+Business leaders seeking insights and organizational knowledge
+Executives requiring rapid access to strategic information and reporting
+Compliance, Risk, and Legal Teams
+Governance teams
+Internal audit
+Risk management
+Legal and compliance professionals
+Customer-Facing Teams
+Customer Support
+Customer Success
+Professional Services
+What Business Problem Does Glean Solve?
+Knowledge Silos
+
+What business problem does it solve?
+Organizations store information across numerous applications and repositories, making it difficult for employees to locate the information they need. Glean provides a unified search and AI experience across connected systems.
+
+Reduced Productivity
+
+Employees often spend significant time searching for information, documents, policies, and subject matter experts. Glean reduces search time by delivering relevant information through a single interface.
+
+Duplicate Work
+
+Teams frequently recreate content, analyses, and documentation because existing information is difficult to find. Glean improves knowledge reuse and organizational efficiency.
+
+Loss of Institutional Knowledge
+
+When employees leave or change roles, valuable knowledge can become difficult to access. Glean helps preserve and surface organizational knowledge.
+
+AI Adoption Challenges
+
+Organizations want to leverage generative AI while maintaining security, privacy, and compliance requirements. Glean provides enterprise-grade controls that enable AI adoption while respecting existing access permissions and governance requirements.
+
+Workflow Inefficiencies
+
+Employees often perform repetitive research and information-gathering tasks. Glean's AI capabilities help automate knowledge work and improve operational efficiency.
+
+What Integrations Exist?
+Glean offers integrations with over 100 enterprise applications and systems.
+
+Collaboration Platforms
+Microsoft Teams
+Slack
+Zoom
+Google Chat
+Productivity and Document Management
+Microsoft 365
+SharePoint
+OneDrive
+Google Workspace
+Google Drive
+Knowledge Management Platforms
+Confluence
+Notion
+Guru
+IT Service Management (ITSM)
+ServiceNow
+Jira Service Management
+Customer Relationship Management (CRM)
+Salesforce
+HubSpot
+Human Resources Systems
+Workday
+BambooHR
+Development and Engineering Platforms
+GitHub
+GitLab
+Bitbucket
+File Storage and Content Repositories
+Box
+Dropbox
+OneDrive
+Google Drive
+Identity and Access Management
+Microsoft Entra ID (Azure AD)
+Okta
+Ping Identity
+SAML-based Single Sign-On (SSO)
+SCIM User Provisioning
+AI and Large Language Model Providers
+
+Depending on deployment architecture and organizational configuration:
+
+OpenAI
+Azure OpenAI Service
+Anthropic Claude
+Google Gemini
+Other supported enterprise AI models
+Governance Considerations
+
+Because Glean is an Enterprise AI Platform that utilizes generative AI, retrieval-augmented generation (RAG), and AI agents, governance considerations should include:
+
+Data Governance
+AI Governance
+Model Risk Management
+Privacy and Compliance
+Access Control and Identity Management
+Prompt and Agent Governance
+Security Monitoring and Audit Logging
+Human Oversight and Output Validation
+Third-Party Risk Management
+Responsible AI Controls
+
+These areas should form the foundation of any Glean governance framework, risk assessment, and control library.
