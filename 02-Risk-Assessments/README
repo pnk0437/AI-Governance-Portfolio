@@ -1,1 +1,208 @@
 # Platform Assessments
+
+This is a governance-ready **Glean Risk Assessment** that aligns with NIST AI RMF, ISO 42001, and enterprise AI governance expectations.
+
+# Glean Enterprise AI Platform Risk Assessment
+
+Purpose
+
+This risk assessment evaluates key risks associated with the implementation and use of the Glean Enterprise AI Platform. The assessment focuses on security, privacy, compliance, third-party dependencies, data protection, human oversight, operational resilience, and reputational considerations.
+
+
+1. Security Risk
+
+Risk
+
+Unauthorized access to sensitive enterprise information through compromised accounts, excessive permissions, prompt manipulation, or misconfigured access controls.
+
+Impact
+
+* Exposure of confidential business information
+* Unauthorized disclosure of intellectual property
+* Increased cybersecurity risk
+* Regulatory and contractual violations
+* Potential financial loss
+
+Mitigation
+
+* Enforce Single Sign-On (SSO) and Multi-Factor Authentication (MFA)
+* Implement Role-Based Access Control (RBAC)
+* Conduct periodic access reviews
+* Enable audit logging and monitoring
+* Perform regular security assessments and penetration testing
+* Apply least-privilege access principles
+
+2. Privacy Risk
+
+Risk
+
+Personally Identifiable Information (PII), employee information, customer data, or sensitive business information may be surfaced, summarized, or exposed through AI-generated responses.
+
+Impact
+
+* Privacy violations
+* Employee trust concerns
+* Regulatory penalties
+* Data breach notification requirements
+* Legal liability
+
+Mitigation
+
+* Conduct Privacy Impact Assessments (PIAs)
+* Establish data classification requirements
+* Configure source-system permissions appropriately
+* Restrict access to sensitive repositories
+* Implement data minimization controls
+* Monitor AI interactions involving sensitive data
+
+3. Compliance Risk
+
+Risk
+
+Use of Glean may create compliance gaps if AI-generated content is inaccurate, unauthorized, or inconsistent with applicable regulatory requirements.
+
+Impact
+
+* Regulatory findings
+* Audit deficiencies
+* Legal exposure
+* Contractual violations
+* Increased compliance costs
+
+Mitigation
+
+* Establish AI governance policies and standards
+* Require human review for regulated or high-risk decisions
+* Maintain audit logs of AI interactions
+* Conduct periodic compliance reviews
+* Align controls with NIST AI RMF, ISO 42001, and applicable regulations
+* Document approved use cases
+
+4. Third-Party Risk
+
+Risk
+
+Glean relies on third-party vendors, cloud services, AI model providers, and external integrations that may introduce security, privacy, operational, or legal risks.
+
+Impact
+
+* Vendor service disruptions
+* Data exposure through third parties
+* Contractual noncompliance
+* Reduced availability of AI services
+
+Mitigation
+
+* Perform Third-Party Risk Assessments (TPRA)
+* Review SOC reports and security certifications
+* Establish contractual security requirements
+* Define vendor incident notification obligations
+* Monitor vendor performance and risk posture
+* Maintain contingency and exit strategies
+
+5. Data Protection Risk
+
+Risk
+
+Sensitive organizational information may be indexed, retrieved, stored, or transmitted in ways that exceed approved business purposes or data handling requirements.
+
+Impact
+
+* Unauthorized data exposure
+* Intellectual property loss
+* Regulatory violations
+* Financial and operational consequences
+
+Mitigation
+
+* Apply enterprise data classification standards
+* Ensure encryption at rest and in transit
+* Establish data retention and disposal requirements
+* Limit indexing of highly restricted information where appropriate
+* Implement data loss prevention (DLP) controls
+* Conduct periodic data governance reviews
+
+6. Human Oversight Risk
+
+Risk
+
+Employees may over-rely on AI-generated responses without validating accuracy, context, completeness, or appropriateness.
+
+Impact
+
+* Poor business decisions
+* Inaccurate reporting
+* Compliance violations
+* Operational errors
+* Increased organizational risk
+
+Mitigation
+
+* Require human review for high-risk use cases
+* Implement Responsible AI guidelines
+* Train users on AI limitations and hallucination risks
+* Establish approval workflows for critical outputs
+* Maintain clear accountability for business decisions
+* Periodically review AI-generated content quality
+
+7. Operational Risk
+
+Risk
+
+System outages, integration failures, inaccurate indexing, AI model degradation, or workflow disruptions may impact business operations.
+
+Impact
+
+* Reduced employee productivity
+* Delayed decision-making
+* Business process interruptions
+* Increased support and remediation costs
+
+Mitigation
+
+* Establish service-level expectations
+* Monitor platform health and availability
+* Develop incident response procedures
+* Conduct business continuity and disaster recovery planning
+* Perform change management reviews
+* Monitor integration performance
+
+8. Reputational Risk
+
+Risk
+
+Inaccurate, biased, offensive, misleading, or unauthorized AI-generated content may negatively affect stakeholder trust and organizational reputation.
+
+Impact
+
+* Loss of employee confidence
+* Customer dissatisfaction
+* Negative public perception
+* Regulatory scrutiny
+* Brand damage
+
+Mitigation
+
+* Establish Responsible AI governance requirements
+* Implement acceptable use standards
+* Require validation of external-facing content
+* Conduct periodic bias and output quality reviews
+* Provide user training and awareness
+* Maintain incident escalation procedures for AI-related events
+
+Overall Risk Assessment Summary
+
+Glean provides significant business value through enterprise search, knowledge management, generative AI, and workflow automation. However, its use introduces risks associated with AI-generated content, data access, privacy, security, and third-party dependencies.
+
+Successful deployment requires implementation of governance controls focused on:
+
+* Security and Access Management
+* Data Governance and Protection
+* Privacy and Compliance
+* Human Oversight
+* Responsible AI Practices
+* Third-Party Risk Management
+* Operational Resilience
+
+With appropriate governance controls in place, the residual risk associated with Glean can be reduced to an acceptable level consistent with enterprise AI adoption standards.
+
