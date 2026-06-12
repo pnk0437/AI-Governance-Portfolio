@@ -1,1 +1,72 @@
 # Control Library
+
+Glean Enterprise AI Control Library
+Access Control
+GLN-AC-01: User Access Management
+
+The Identity and Access Management (IAM) team implements GLN-AC-01 by provisioning and deprovisioning user access based on approved business requests and role assignments. The organization uses Entra ID/Okta integrated with Glean Single Sign-On (SSO) to enforce authentication and authorization requirements. This occurs upon hire, role change, or termination. Results are reviewed by the IAM Manager. Evidence includes access request tickets, user access reports, approval records, and deprovisioning logs.
+
+GLN-AC-02: Role-Based Access Control
+
+The Glean Platform Administrator implements GLN-AC-02 by assigning users to predefined roles based on job responsibilities and least privilege principles. The organization uses Glean RBAC and source-system permissions to restrict access to authorized content. This occurs during onboarding and role changes. Results are reviewed quarterly by Information Security. Evidence includes role matrices, user entitlement reports, and access review documentation.
+
+GLN-AC-03: Periodic Access Reviews
+
+The Information Security team implements GLN-AC-03 by conducting periodic reviews of user access and permissions. The organization uses access review procedures and user entitlement reports to identify excessive or inappropriate access. This occurs quarterly. Results are reviewed by system owners and Information Security leadership. Evidence includes access certification reports, review signoffs, and remediation records.
+
+Data Protection
+GLN-DP-01: Data Classification Enforcement
+
+The Data Governance team implements GLN-DP-01 by ensuring enterprise data connected to Glean is classified according to organizational data classification standards. The organization uses data governance procedures and repository ownership controls to identify data sensitivity levels. This occurs prior to onboarding new data sources and during annual reviews. Results are reviewed by Data Owners. Evidence includes data inventories, classification records, and repository approval documentation.
+
+GLN-DP-02: Encryption of Data
+
+The Information Security team implements GLN-DP-02 by requiring encryption of enterprise data in transit and at rest. The organization uses TLS encryption, cloud security controls, and vendor security configurations to protect information processed by Glean. This occurs continuously. Results are reviewed annually by Information Security. Evidence includes vendor security documentation, architecture diagrams, and encryption configuration records.
+
+GLN-DP-03: Sensitive Data Protection
+
+The Data Governance team implements GLN-DP-03 by restricting access to confidential, regulated, and sensitive information indexed by Glean. The organization uses source-system permissions, data classification controls, and approved access restrictions to prevent unauthorized exposure. This occurs continuously. Results are reviewed by Data Owners and Compliance. Evidence includes permission configurations, access review reports, and data classification inventories.
+
+Monitoring & Logging
+GLN-MON-01: Security Event Monitoring
+
+The Security Operations Center (SOC) implements GLN-MON-01 by monitoring Glean security events and suspicious user activity. The organization uses SIEM monitoring and security alerting tools to identify potential security incidents. This occurs continuously. Results are reviewed by Security Analysts. Evidence includes SIEM alerts, incident tickets, and investigation records.
+
+GLN-LOG-01: Audit Logging
+
+The Glean Platform Administrator implements GLN-LOG-01 by enabling audit logging for user activity, searches, administrative actions, and configuration changes. The organization uses Glean audit logs and centralized log management solutions to maintain audit trails. This occurs continuously. Results are reviewed monthly by Information Security. Evidence includes audit logs, log retention records, and monitoring reports.
+
+GLN-LOG-02: Log Retention Management
+
+The Information Security team implements GLN-LOG-02 by retaining audit logs in accordance with corporate retention requirements. The organization uses centralized logging and retention procedures to preserve evidence for investigations and compliance purposes. This occurs continuously. Results are reviewed annually by Compliance and Security. Evidence includes retention schedules, log repositories, and retention policy documentation.
+
+Human Oversight
+GLN-HO-01: Human Review of High-Risk Outputs
+
+Business Owners implement GLN-HO-01 by requiring human review and approval of AI-generated content used in high-risk business processes. The organization uses documented review procedures to validate accuracy, completeness, and appropriateness before use. This occurs prior to publication or decision-making. Results are reviewed by designated approvers. Evidence includes approval records, workflow documentation, and reviewed outputs.
+
+GLN-HO-02: AI Output Validation
+
+End Users implement GLN-HO-02 by validating AI-generated responses against authoritative source information before relying on outputs. The organization uses source citations and business review procedures to verify content accuracy. This occurs whenever AI-generated content is used for business purposes. Results are reviewed by Business Managers. Evidence includes reviewed outputs, source documentation, and training records.
+
+Third-Party Risk
+GLN-TPR-01: Vendor Risk Assessment
+
+The Third-Party Risk Management team implements GLN-TPR-01 by performing risk assessments of Glean and associated AI service providers. The organization uses vendor risk management procedures to evaluate security, privacy, compliance, and operational controls. This occurs prior to implementation and annually thereafter. Results are reviewed by Vendor Risk Management leadership. Evidence includes risk assessments, security questionnaires, SOC reports, and contract reviews.
+
+GLN-TPR-02: Third-Party Security Reviews
+
+The Information Security team implements GLN-TPR-02 by reviewing independent security attestations and certifications provided by Glean and supporting AI vendors. The organization uses third-party assurance reviews to evaluate vendor control effectiveness. This occurs annually. Results are reviewed by Information Security leadership. Evidence includes SOC reports, ISO certifications, penetration testing summaries, and vendor security documentation.
+
+Responsible AI
+GLN-AI-01: Approved AI Use Cases
+
+The AI Governance Committee implements GLN-AI-01 by reviewing and approving Glean AI use cases prior to production deployment. The organization uses an AI use case inventory and risk assessment process to evaluate potential risks and required controls. This occurs before implementation of new use cases. Results are reviewed by the AI Governance Committee. Evidence includes use case inventories, approval records, and risk assessments.
+
+GLN-AI-02: AI Hallucination and Output Risk Management
+
+The AI Governance team implements GLN-AI-02 by establishing controls to identify and mitigate risks associated with inaccurate, incomplete, or misleading AI-generated outputs. The organization uses human oversight procedures, user training, and source attribution capabilities to support output validation. This occurs continuously. Results are reviewed quarterly by the AI Governance Committee. Evidence includes training records, governance reviews, incident reports, and output validation procedures.
+
+GLN-AI-03: AI Agent Governance
+
+The AI Governance Committee implements GLN-AI-03 by requiring registration, risk assessment, and approval of AI agents operating within the Glean environment. The organization uses an AI agent inventory and governance review process to ensure appropriate oversight and accountability. This occurs before deployment and annually thereafter. Results are reviewed by the AI Governance Committee. Evidence includes agent inventories, risk assessments, approval records, and periodic review documentation.
