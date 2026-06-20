@@ -1,1 +1,187 @@
 # Model Cards
+
+AI Governance Model Card – Glean
+
+1. Platform Name
+
+Glean
+
+2. Vendor
+
+Glean Technologies, Inc.
+
+3. Business Owner
+
+Enterprise Knowledge Management and Data Analytics Team
+
+4. Technical Owner
+
+AI Security Engineer / Enterprise Search Administrator
+
+5. Platform Purpose
+
+Glean is an enterprise AI-powered workplace search and knowledge management platform that connects to organizational systems and repositories to provide employees with a unified search experience. The platform uses artificial intelligence to retrieve, summarize, and surface relevant information from applications such as Microsoft 365, Google Workspace, Slack, Salesforce, Jira, Confluence, ServiceNow, and other enterprise systems.
+
+The organization intends to use Glean to improve employee productivity, reduce time spent searching for information, enhance collaboration, and increase knowledge accessibility across departments.
+
+6. Intended Use
+
+Approved use cases include:
+
+* Enterprise knowledge search
+* Internal document discovery
+* Research and information retrieval
+* AI-generated summaries of business content
+* Employee self-service support
+* Knowledge management initiatives
+* Cross-functional collaboration
+* Productivity enhancement
+* Finding subject matter experts within the organization
+
+Authorized users include approved employees and contractors who have completed organizational AI governance and security awareness training.
+
+7. Prohibited Use
+
+The platform shall not be used for:
+
+* Uploading unauthorized regulated data sources
+* Accessing information beyond approved business needs
+* Sharing confidential information with unauthorized users
+* Processing customer PII without documented approval
+* Using AI-generated responses as the sole basis for critical business decisions
+* Circumventing existing access controls
+* Conducting employee surveillance outside approved policies
+* Making fully autonomous employment, legal, financial, or compliance decisions
+* Storing classified or restricted government information without authorization
+
+8. Data Considerations
+
+Permitted Data
+
+* Internal business documents
+* Policies and procedures
+* Knowledge base articles
+* Training materials
+* Project documentation
+* Public information
+* Approved operational data sources
+
+Restricted Data
+
+* Personally Identifiable Information (PII)
+* Protected Health Information (PHI)
+* Payment Card Industry (PCI) data
+* Trade secrets requiring enhanced protection
+* Confidential legal records
+* Classified government information
+* Export-controlled data
+* Sensitive HR records
+
+Governance Requirements
+
+* Data classification must be completed before system integration.
+* Access permissions must mirror source-system permissions.
+* Data retention policies must align with corporate retention standards.
+* Privacy impact assessments must be completed before onboarding sensitive data sources.
+* Encryption must be enabled for data at rest and in transit.
+* Regular access reviews must be conducted.
+* Data source integrations must undergo security review and approval.
+
+9. Key Risks
+
+Unauthorized Access
+
+Misconfigured permissions could expose sensitive information from connected enterprise systems.
+
+Data Leakage
+
+Sensitive organizational information may be surfaced through search results or AI-generated summaries.
+
+Excessive Data Exposure
+
+Users may discover information they were previously unaware existed if access controls are not properly synchronized.
+
+Hallucinated or Inaccurate Summaries
+
+AI-generated summaries may contain inaccuracies, omissions, or misleading conclusions.
+
+Regulatory Noncompliance
+
+Improper handling of regulated data may violate privacy, security, or industry regulations.
+
+Insider Threat Risk
+
+Authorized users may intentionally or unintentionally misuse access to sensitive organizational information.
+
+Third-Party Integration Risk
+
+Security vulnerabilities or misconfigurations within connected systems may affect Glean's overall security posture.
+
+10. Required Controls
+
+Prior to approval, the following controls must be implemented:
+
+* Role-Based Access Control (RBAC)
+* Single Sign-On (SSO)
+* Multi-Factor Authentication (MFA)
+* Source-System Permission Enforcement
+* Data Classification Requirements
+* Data Loss Prevention (DLP) Controls
+* Audit Logging
+* Vendor Security Assessment
+* Privacy Impact Assessment
+* Quarterly Access Reviews
+* Security Monitoring and Alerting
+* Human Validation of AI-Generated Summaries
+* Incident Response Procedures
+* Third-Party Risk Management Reviews
+
+11. Human Oversight Requirements
+
+Human review is required for:
+
+* AI-generated summaries used in business decisions
+* Compliance, legal, and regulatory interpretations
+* HR-related recommendations
+* Customer-facing communications
+* Information used in executive reporting
+* Security and incident response investigations
+
+The following activities must never be fully automated:
+
+* Hiring decisions
+* Employee disciplinary actions
+* Legal determinations
+* Regulatory compliance approvals
+* Material financial decisions
+* Security incident adjudication
+
+Employees are responsible for validating information obtained through Glean before acting upon it.
+
+12. Monitoring Requirements
+
+The platform shall be continuously monitored through:
+
+* Quarterly user access reviews
+* Monthly audit log reviews
+* Search activity monitoring
+* AI output quality assessments
+* Security event monitoring
+* Integration health monitoring
+* Data source permission audits
+* Vendor security reviews
+* Annual governance assessments
+* Incident tracking and remediation reviews
+* Control effectiveness testing
+
+13. Approval Recommendation
+
+Approve with Conditions
+
+14. Justification
+
+Glean provides substantial business value by improving knowledge discovery, reducing information silos, and increasing employee productivity. However, because the platform aggregates information from numerous enterprise systems and uses AI-generated summaries, significant risks exist regarding unauthorized access, data leakage, excessive data exposure, and regulatory compliance.
+
+Approval is recommended contingent upon implementation of required security, privacy, and governance controls, including RBAC, MFA, audit logging, source-permission enforcement, DLP controls, and ongoing monitoring activities.
+
+With these controls in place, residual risk is reduced to an acceptable level and aligns with organizational governance, security, and compliance requirements while enabling the organization to realize the productivity benefits of enterprise AI search capabilities.
